@@ -249,7 +249,12 @@ void board::chkwin()
   exit(0);
   }
 
-          
+  if(l[0][2][0]=='o')
+  {
+  cout<<"O wins";
+  getchar(); getchar();
+  exit(0);
+  }        
           
   }
 }
