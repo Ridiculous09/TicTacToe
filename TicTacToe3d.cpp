@@ -264,6 +264,6 @@ int main()
      {
        play.show();
        play.chance(c);
-       
+       system("clear");
      }
 }
