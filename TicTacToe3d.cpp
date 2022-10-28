@@ -243,7 +243,12 @@ void board::chkwin()
   if(l[0][2][0]==l[1][1][1]&&l[1][1][1]==l[2][0][2])
   {
           
-//
+ if(l[0][2][0]=='x')
+  {
+  cout<<"X wins";
+  getchar(); getchar();
+  exit(0);
+  }
 
   if(l[0][2][0]=='o')
   {
